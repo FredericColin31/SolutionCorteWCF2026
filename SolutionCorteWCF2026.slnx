@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DataContracts/DataContracts.csproj" Id="32ac37bf-ee7f-403e-a4cd-97e578f0513a" />
+  <Project Path="Host/Host.csproj" Id="2af9ee4b-61a7-46f4-a0a4-7d844a0a5be3" />
+  <Project Path="IHM/IHM.csproj" Id="c0a33b74-66cb-4a83-a9ac-cb54f8522793" />
+  <Project Path="Services/Services.csproj" Id="2f73e61a-861b-4559-9cfe-8f0481af2b7c" />
+  <Project Path="ServicesContracts/ServicesContracts.csproj" Id="e4bdfa76-8d30-4519-b46a-a675bf7ea5b1" />
+</Solution>
