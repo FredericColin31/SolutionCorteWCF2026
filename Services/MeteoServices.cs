@@ -1,4 +1,5 @@
-﻿using ServicesContracts;
+﻿using DataContracts;
+using ServicesContracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,15 @@ namespace Services
             if (city.ToLower() == "corte") return 5; 
             
             return 12;
+        }
+
+        public List<CityTemp> GetTemperatures()
+        {
+            return new List<CityTemp>()
+            {
+                new CityTemp() { City = "Corte", Temperature = 5 },
+                new CityTemp() { City = "Paris", Temperature = 12 }
+            };
         }
     }
 }

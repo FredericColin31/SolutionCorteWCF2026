@@ -24,6 +24,8 @@ namespace IHM
             var channel = factory.CreateChannel();
 
             MessageBox.Show(channel.GetTemperature("Toulouse").ToString());
+
+            dataGridView1.DataSource = channel.GetTemperatures();
         }
     }
 }

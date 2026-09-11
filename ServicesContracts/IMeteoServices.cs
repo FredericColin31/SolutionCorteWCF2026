@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataContracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -12,5 +13,8 @@ namespace ServicesContracts
     {
         [OperationContract()]
         Int32 GetTemperature(String city);
+
+        [OperationContract()]
+        List<CityTemp> GetTemperatures();
     }
 }
